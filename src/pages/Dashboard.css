@@ -3,7 +3,7 @@
 }
 
 .dashboard-main {
-    padding-top: var(--space-xl);
+    padding-top: var(--space-lg);
     padding-bottom: var(--space-2xl);
     display: flex;
     flex-direction: column;

@@ -4,6 +4,7 @@
 
 .detail-main {
     padding-top: var(--space-lg);
+    margin-top: 0;
     padding-bottom: var(--space-2xl);
 }
 
