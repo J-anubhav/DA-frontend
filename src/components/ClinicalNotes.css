@@ -1,0 +1,39 @@
+.clinical-card {
+    padding: var(--space-lg);
+}
+
+.clinical-section {
+    margin-bottom: var(--space-md);
+}
+
+.clinical-section:last-child {
+    margin-bottom: 0;
+}
+
+.complaints-list {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.complaint-item {
+    display: flex;
+    align-items: baseline;
+    gap: var(--space-sm);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.bullet {
+    color: var(--black);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.clinical-text {
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--gray-800);
+}

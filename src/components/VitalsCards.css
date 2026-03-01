@@ -1,0 +1,46 @@
+.vitals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+}
+
+.vital-card {
+    padding: var(--space-md);
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+}
+
+.vital-icon {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.06);
+    border-radius: var(--radius);
+    border: 1.5px solid rgba(0, 0, 0, 0.15);
+}
+
+.vital-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.vital-value {
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.vital-unit {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--gray-600);
+}
+
+@media (max-width: 600px) {
+    .vitals-grid {
+        grid-template-columns: 1fr;
+    }
+}

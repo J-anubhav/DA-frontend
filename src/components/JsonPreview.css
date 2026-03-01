@@ -1,0 +1,21 @@
+.json-preview {
+    margin-top: var(--space-lg);
+}
+
+.json-code-block {
+    background: var(--white);
+    border: var(--border);
+    border-radius: var(--radius);
+    padding: var(--space-lg);
+    overflow-x: auto;
+}
+
+.json-code-block pre {
+    font-family: 'Courier New', Consolas, monospace;
+    font-size: 0.82rem;
+    line-height: 1.6;
+    color: var(--gray-800);
+    margin: 0;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}

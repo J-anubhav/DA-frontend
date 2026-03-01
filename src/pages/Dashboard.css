@@ -1,0 +1,68 @@
+.dashboard-page {
+    min-height: 100vh;
+}
+
+.dashboard-main {
+    padding-top: var(--space-xl);
+    padding-bottom: var(--space-2xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-xl);
+}
+
+.dashboard-container {
+    padding: var(--space-xl);
+}
+
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--space-lg);
+}
+
+.dashboard-title {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.prescription-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+/* CTA Banner */
+.cta-banner {
+    background: var(--cta-lavender);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--space-xl) var(--space-xl);
+    gap: var(--space-lg);
+}
+
+.cta-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.cta-text {
+    font-size: 0.9rem;
+    color: var(--gray-600);
+    font-weight: 500;
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .cta-banner {
+        flex-direction: column;
+        text-align: center;
+    }
+}

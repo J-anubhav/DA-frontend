@@ -1,0 +1,55 @@
+.meds-card {
+    padding: var(--space-lg);
+}
+
+.meds-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.med-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: 12px 16px;
+    background: var(--gray-100);
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: var(--radius);
+    transition: transform 0.15s ease;
+}
+
+.med-item:hover {
+    transform: translateX(4px);
+}
+
+.med-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--header-orange);
+    border: 1.5px solid var(--black);
+    flex-shrink: 0;
+}
+
+.med-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.med-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.med-dosage {
+    font-size: 0.8rem;
+    color: var(--gray-600);
+    font-weight: 500;
+}
+
+.meds-empty {
+    color: var(--gray-600);
+    font-style: italic;
+    font-size: 0.9rem;
+}
