@@ -8,8 +8,8 @@ import './Dashboard.css';
 export default function Dashboard() {
     return (
         <div className="dashboard-page">
-            <Header />
             <main className="container dashboard-main">
+                <Header />
                 {/* Main dashboard container */}
                 <div className="dashboard-container card-dashboard">
                     {/* Title section */}

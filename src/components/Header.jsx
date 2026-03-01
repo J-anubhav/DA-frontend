@@ -5,7 +5,7 @@ import './Header.css';
 export default function Header() {
     return (
         <header className="header">
-            <div className="header-inner container">
+            <div className="header-inner">
                 <Link to="/" className="header-logo">
                     <span className="logo-text">DA-SYNC</span>
                 </Link>

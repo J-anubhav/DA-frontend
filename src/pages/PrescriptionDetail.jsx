@@ -16,8 +16,8 @@ export default function PrescriptionDetail() {
     if (!prescription) {
         return (
             <div className="detail-page">
-                <Header />
                 <main className="container detail-main">
+                    <Header />
                     <div className="card not-found">
                         <h2>Prescription not found</h2>
                         <p>The requested prescription could not be located.</p>
@@ -36,8 +36,8 @@ export default function PrescriptionDetail() {
 
     return (
         <div className="detail-page">
-            <Header />
             <main className="container detail-main">
+                <Header />
                 {/* Top bar */}
                 <div className="detail-top-bar">
                     <Link to="/" className="btn btn-white back-btn">

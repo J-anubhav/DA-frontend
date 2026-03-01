@@ -1,10 +1,10 @@
 .header {
     background: var(--header-orange);
-    border-bottom: var(--border);
-    padding: 14px 0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    border: var(--border);
+    border-radius: var(--radius-lg);
+    padding: 14px 24px;
+    box-shadow: var(--shadow-hard);
+    margin-bottom: var(--space-lg);
 }
 
 .header-inner {
